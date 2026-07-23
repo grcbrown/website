@@ -1,0 +1,5 @@
+<object data="{{ .Get "src" | relURL }}" type="application/pdf"
+        style="width:100%; height:{{ .Get "height" | default "85vh" }}; border:1px solid #ddd; margin-top:1.5rem;">
+  <p>Your browser can't display PDFs inline.
+     <a href="{{ .Get "src" | relURL }}">Download the PDF</a> instead.</p>
+</object>

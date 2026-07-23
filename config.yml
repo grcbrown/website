@@ -12,17 +12,11 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: Research
+          url: research/
           weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
+        - name: CV
+          url: cv/
           weight: 4 
         - name: Blog
           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
@@ -44,7 +38,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["research","cv"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,33 +49,28 @@ params:
     profileMode:
           enabled: true
           title: Grace Brown
-          subtitle: "I am a 4th year PhD candidate in the Department of Linguistics at Stanford University. My research focuses on speech perception, addressing questions at the intersection of pyscholinguistics and sociolinguistics. My work is primarily advised by Meghan Sumner and Rob Podesva."
-          imageUrl: "picture.jpeg"
+          subtitle: |
+            <div>I am a 4th year PhD candidate in the Department of Linguistics at Stanford University, advised by Meghan Sumner and Rob Podesva. My research sits at the intersection of speech perception, sociolinguistics, and psycholinguistics. I examine how social meaning is constructed from voices, focusing on how the context in which a talker is encountered shapes both social categorization and memory for what was said.</div> 
+            <br>
+            <div>My dissertation asks whether the set of talkers a listener hears at encoding shapes recognition memory for spoken words, bringing exemplar accounts of spoken-word recognition together with contextual-binding accounts of episodic memory. At Stanford, I'm affiliated with the Stanford Phonetics Lab and the Interactional Sociophonetics Lab. My research has been supported by the NSF GRFP (DGE-2146755).</div>
+          imageUrl: "grace-image.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Research
+              url: research/
+            - name: CV
+              url: cv/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
           url: mailto:grcbrown@stanford.edu
-        - name: Location
-          url: location/
+        - name: LinkedIn
+          url: http://www.linkedin.com/in/grace-brown-07b4a8179
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=user
         - name: GitHub
-          url: https://github.com/user
+          url: https://github.com/grcbrown
 
     assets:
         disableScrollBarStyle: true
