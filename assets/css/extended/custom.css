@@ -9,3 +9,19 @@
   color: #333;
   font-weight: 600;
 }
+
+.paper-card {
+  display: flex;
+  align-items: flex-start;   /* top-aligns image and text; use center to vertically center */
+  gap: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.paper-thumb {
+  flex: 0 0 auto;    /* image keeps its size, doesn't stretch or shrink */
+  width: 140px;
+  height: auto;
+}
