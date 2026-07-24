@@ -12,33 +12,44 @@
 
 .paper-card {
   display: flex;
-  align-items: stretch;   /* both boxes match height */
+  align-items: center;   /* both boxes match height */
   gap: 1.25rem;
   margin-bottom: 1.5rem;
 }
 
 .paper-image,
 .paper-text {
-  border: 1px solid #ddd;
   border-radius: 6px;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1rem;
 }
 
-.paper-image {
-  flex: 0 0 45%;
-  min-width: 0;
-  display: flex;
-  align-items: center;    /* centers image vertically in its box */
-}
+.paper-image { flex: 0 0 45%; }
 
 .paper-image img {
   width: 100%;
   height: auto;
+  max-height: 100%;
 }
 
 .paper-text {
   flex: 1 1 0;
   min-width: 0;           /* keep this — still prevents the vertical-text bug */
+}
+
+.paper-title { 
+  display: block; 
+  font-size: 1.2rem; 
+  font-weight: 700; 
+  margin-bottom: 
+  0.4rem; 
+}
+
+.paper-text a.paper-title {
+  text-decoration: none;
+}
+
+.paper-title:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 640px) {
@@ -47,5 +58,5 @@
 }
 
 :root {
-  --main-width: 800px;    /* default is around 720px */
+  --main-width: 900px;    /* default is around 720px */
 }

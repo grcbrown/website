@@ -14,7 +14,9 @@ title: "Research"
 
 <div class="paper-text">
 
-Brown, G., Sumner, M., & Podesva, R. J. (2026). <a href="https://doi.org/10.3765/plsa.v11i1.6045" target="_blank" rel="noopener">Indexical weight is distributed: Evidence from social evaluations of /s/.</a>  
+<a href="https://doi.org/10.3765/plsa.v11i1.6045" target="_blank" rel="noopener" class="paper-title">Indexical weight is distributed: Evidence from social evaluations of /s/</a>
+
+Brown, G., Sumner, M., & Podesva, R. J. (2026)  
 <i>Proceedings of the Linguistic Society of America</i>
 
 </div>
