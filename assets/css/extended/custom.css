@@ -12,8 +12,11 @@
 
 .paper-card {
   display: flex;
-  align-items: flex-start;   /* top-aligns image and text; use center to vertically center */
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 1.25rem;
+  max-width: 1000px;         /* wider than the 720px column */
+  margin-left: 50%;
+  transform: translateX(-50%);  /* re-center the wider card */
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 1rem 1.25rem;
@@ -21,13 +24,21 @@
 }
 
 .paper-thumb {
-  flex: 0 0 auto;    /* image keeps its size, doesn't stretch or shrink */
-  width: 140px;
+  flex: 0 0 45%;   /* image takes 45% of the card width */
   height: auto;
 }
 
-.paper-thumb {
-  width: 140px !important;
-  height: auto !important;
-  border: 3px solid red !important;
+.paper-text {
+  flex: 1 1 0;    /* takes all remaining width, can shrink */
+  min-width: 0;   /* the crucial part — lets it actually use that width */
+}
+
+@media (max-width: 640px) {
+  .paper-card {
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+  .paper-thumb { flex: none; width: 100%; }
 }
