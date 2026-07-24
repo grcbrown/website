@@ -26,4 +26,8 @@
   height: auto;
 }
 
-body { background: #ffe0e0 !important; }
+.paper-thumb {
+  width: 140px !important;
+  height: auto !important;
+  border: 3px solid red !important;
+}
