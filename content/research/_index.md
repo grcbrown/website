@@ -8,7 +8,7 @@ title: "Research"
 
 <div class="paper-image">
 
-{{< img src="lsa_proceedings.png" alt="LSA proceedings figure" class="paper-image" >}}
+{{< img src="lsa_26_proceedings.png" alt="LSA proceedings figure" class="paper-image" >}}
 
 </div>
 
@@ -18,6 +18,25 @@ title: "Research"
 
 Brown, G., Sumner, M., & Podesva, R. J. (2026)  
 <i>Proceedings of the Linguistic Society of America</i>
+
+</div>
+
+</div>
+
+<div class="paper-card">
+
+<div class="paper-image">
+
+{{< img src="cogsci_24_proceedings.png" alt="CogSci proceedings figure" class="paper-image" >}}
+
+</div>
+
+<div class="paper-text">
+
+<a href="https://escholarship.org/uc/item/2229t0gw" target="_blank" rel="noopener" class="paper-title">Linking cognitive and neural models of audiovisual processing to explore speech perception in autism</a>
+
+Brown, G. & Feldman, N. H. (2024)  
+<i>Proceedings of the Annual Meeting of the Cognitive Science Society</i>, 46
 
 </div>
 
