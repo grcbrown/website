@@ -12,35 +12,40 @@
 
 .paper-card {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;   /* both boxes match height */
   gap: 1.25rem;
-  max-width: 1000px;         /* wider than the 720px column */
-  margin-left: auto;
-  margin-right: auto;
-  transform: translateX(-50%);  /* re-center the wider card */
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
 }
 
-.paper-thumb {
+.paper-image,
+.paper-text {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+.paper-image {
   flex: 0 0 45%;
-  max-width: 45%;
+  min-width: 0;
+  display: flex;
+  align-items: center;    /* centers image vertically in its box */
+}
+
+.paper-image img {
+  width: 100%;
   height: auto;
 }
 
 .paper-text {
-  flex: 1 1 0;    /* takes all remaining width, can shrink */
-  min-width: 0;   /* the crucial part — lets it actually use that width */
+  flex: 1 1 0;
+  min-width: 0;           /* keep this — still prevents the vertical-text bug */
 }
 
 @media (max-width: 640px) {
-  .paper-card {
-    flex-direction: column;
-    max-width: 100%;
-    margin-left: 0;
-    transform: none;
-  }
-  .paper-thumb { flex: none; width: 100%; }
+  .paper-card { flex-direction: column; }
+  .paper-image { flex: none; }
+}
+
+:root {
+  --main-width: 800px;    /* default is around 720px */
 }
