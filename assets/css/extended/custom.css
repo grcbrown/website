@@ -15,7 +15,8 @@
   align-items: flex-start;
   gap: 1.25rem;
   max-width: 1000px;         /* wider than the 720px column */
-  margin-left: 50%;
+  margin-left: auto;
+  margin-right: auto;
   transform: translateX(-50%);  /* re-center the wider card */
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -24,7 +25,8 @@
 }
 
 .paper-thumb {
-  flex: 0 0 45%;   /* image takes 45% of the card width */
+  flex: 0 0 45%;
+  max-width: 45%;
   height: auto;
 }
 
