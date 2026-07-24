@@ -6,7 +6,7 @@ title: "Research"
 
 <div class="paper-card">
 
-<img src="lsa_proceedings.png" alt="LSA proceedings figure" class="paper-thumb">
+{{< img src="lsa_proceedings.png" alt="LSA proceedings figure" class="paper-thumb" >}}
 
 <div>
 
