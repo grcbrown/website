@@ -63,7 +63,7 @@ params:
         - name: LinkedIn
           url: http://www.linkedin.com/in/grace-brown-07b4a8179
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
+          url: https://scholar.google.com/citations?hl=en&user=RZtEFmMAAAAJ
         - name: GitHub
           url: https://github.com/grcbrown
 
