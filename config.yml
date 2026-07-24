@@ -18,9 +18,6 @@ menu:
         - name: CV
           url: cv/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
     description: "This website hosts Grace Brown's research materials, course materials, curriculum vitae, and contact information."

@@ -4,3 +4,8 @@
   border: 1px solid var(--border);
   margin-top: 1.5rem;
 }
+
+.post-content ol li::marker {
+  color: #333;
+  font-weight: 600;
+}
