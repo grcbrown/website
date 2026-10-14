@@ -74,8 +74,6 @@ params:
         hiddenInSingle: true
     label:
       text: "Grace Brown"
-      icon: favicon.ico
-      iconHeight: 18
 
 markup:
     goldmark:
