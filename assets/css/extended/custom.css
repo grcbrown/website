@@ -67,3 +67,13 @@
 :root {
   --main-width: 900px;    /* default is around 720px */
 }
+
+.profile_inner > span a {
+    text-decoration: underline;
+    text-decoration-color: var(--lightcolor);
+    text-underline-offset: 3px;
+}
+
+.profile_inner > span a:hover {
+    color: var(--darkcolor);
+}

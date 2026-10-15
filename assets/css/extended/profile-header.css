@@ -1,0 +1,25 @@
+/* Homepage: name and Research/CV buttons on one row, buttons on the right */
+.profile .profile_inner {
+    width: 100%;
+}
+
+.profile .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+}
+
+.profile .profile-header h1 {
+    margin: 0;
+}
+
+.profile .profile-header .buttons {
+    gap: 12px;
+}
+
+.profile .profile-header .button {
+    margin: 0;
+}
