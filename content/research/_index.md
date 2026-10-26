@@ -44,10 +44,12 @@ Brown, G. & Feldman, N. H. (2024)
 
 ## Selected Presentations
 
-1. Brown, G., Sumner, M., & Podesva, R. J. (2026). “Effects of CV coarticulation on social evaluations of fronted /s/.” Linguistic Society of America Annual Meeting (LSA 2026), New Orleans, LA, United States.
+1. Brown, G. & Sumner, M. (2026). “[Same voice, different labels: Effects of ambient talker voices on social categorization.](/website/NWAV54_Brown_Sumner.pdf)” New Ways of Analyzing Variation 54 (NWAV54), University of Montreal: Montreal, Canada.
 
-2. Brown, G., Sumner, M., & Podesva, R. J. (2025). “Gender identity and ideology shape perceptions of masculinity in male speech.” New Ways of Analyzing Variation 53 (NWAV53), University of Michigan: Ann Arbor, MI, United States.
+2. Brown, G., Senko, M., WuWong, J., de la Fuente, A., Martin Rodriguez, L., Ikedo, T., Tan, Y. L., & Podesva, R. (2026). “[Queering place, adequating difference: A rapid and anonymous survey investigating neighborhood ideology in San Francisco.](/website/NWAV54_Brown_et_al.pdf)” New Ways of Analyzing Variation 54 (NWAV54), University of Montreal: Montreal, Canada.
 
-3. Brown, G. & Feldman, N. H. (2024). “Linking cognitive and neural models of audiovisual processing to explore speech perception in autism.” [Poster]. The 46th Annual Meeting of the Cognitive Science Society, Rotterdam, Netherlands.
+3. Brown, G., Sumner, M., & Podesva, R. J. (2026). “[Effects of CV coarticulation on social evaluations of fronted /s/.](/website/LSA2026_Brown_et_al.pdf)” Linguistic Society of America Annual Meeting (LSA 2026), New Orleans, LA, United States.
+
+4. Brown, G., Sumner, M., & Podesva, R. J. (2025). “[Gender identity and ideology shape perceptions of masculinity in male speech.](/website/NWAV53_Brown_et_al.pdf)” New Ways of Analyzing Variation 53 (NWAV53), University of Michigan: Ann Arbor, MI, United States.
 
 For a full list, see my [CV](/website/cv/).
