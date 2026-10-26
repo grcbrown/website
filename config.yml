@@ -18,7 +18,7 @@ menu:
           weight: 4 
 
 params:
-    description: "This website hosts Grace Brown's research materials, course materials, curriculum vitae, and contact information."
+    description: "This website hosts Grace Brown's research materials, curriculum vitae, and contact information."
     author: Grace Brown
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -45,7 +45,7 @@ params:
           enabled: true
           title: Grace Brown
           subtitle: |
-            <div>I’m a fourth-year PhD candidate in Linguistics at Stanford University, where I study how listeners use their knowledge of language to understand the social world and how that knowledge of the social world, in turn, impacts language processing. This work intersects with issues in sociolinguistics, psycholinguistics, and speech perception.</div>
+            <div>I’m a fourth-year PhD candidate in Linguistics at Stanford University, where I study how people use their knowledge of language to understand the social world and how that knowledge of the social world, in turn, impacts language processing. This work intersects with issues in sociolinguistics, psycholinguistics, and speech perception.</div>
             <br>
             <div>When we listen to someone talk, we take in what they say and, at the same time, form an impression of who they are. My research illustrates how this meaning is put together as we listen: the same linguistic feature or voice can be heard as portraying different social characteristics depending on who is listening and who they are heard alongside.</div>
             <br>
